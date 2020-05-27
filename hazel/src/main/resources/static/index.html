@@ -1,0 +1,163 @@
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script src="/hazelApp.js"></script>
+<style>
+
+.hero-download {
+    display: inline-flex;
+    margin: 4em 0 0 0;
+    border-radius: 20px;
+    border: 1px solid #4e4b4d;
+    list-style: none;
+    padding: 0;
+}
+
+.ul-border {
+    border: 2px solid #c7e617;
+}
+
+h2{
+color:#efdab9;
+}
+.hazel-logo {
+	flex: 0 0 500px;
+	height: 366px;
+	background-repeat: no-repeat;
+	background-image: url("HazelLogoFinal.png");
+	 background-size: 200px 150px;
+	background-position: center;
+	-webkit-user-select: none;
+	user-select: none
+}
+.card, .list-group {
+color: #ffffff;
+
+}
+.hazel-logo-circles {
+	width: 366px;
+	height: 366px;
+	margin: auto;
+	position: relative
+}
+
+.hazel-logo-circle {
+	position: absolute;
+	left: 0;
+	top: 0;
+	animation: hazel-logo-circle 1s linear infinite;
+	will-change: transform
+}
+
+.hazel-logo-circle:nth-child(1) {
+	animation-duration: 10s
+}
+
+.hazel-logo-circle:nth-child(2) {
+	animation-duration: 10s
+}
+
+.hazel-logo-circle:nth-child(3) {
+	animation-duration: 20s
+}
+
+.hazel-logo-circle:nth-child(4) {
+	animation-duration: 40s
+}
+
+.hazel-logo-circle:nth-child(5) {
+	animation-duration: 60s
+}
+
+.hazel-logo-circle:nth-child(6) {
+	animation-duration: 80s
+}
+
+.hazel-logo-circle:nth-child(7) {
+	animation-duration: 90s
+}
+
+.hazel-logo-circle:nth-child(8) {
+	animation-duration: 80s
+}
+
+.hazel-logo-circle:nth-child(9) {
+	animation-duration: 110s
+}
+
+.hazel-logo-circle:nth-child(10) {
+	animation-duration: 120s
+}
+
+.hazel-header:nth-child(1) {
+	animation-duration: 120s
+}
+.wrapper {
+    width: 860px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+}
+@keyframes hazel-logo-circle {
+	100% {
+		transform: rotate(1turn)
+	}
+}
+@keyframes hazel-header {
+	100% {
+		transform: rotate(-1turn)
+	}
+}
+ body{
+background-image:radial-gradient(ellipse closest-side at 50% 50%, #3a3f45, #37383c 25%, #343233)
+    }
+</style>
+</head>
+
+<nav class="navbar navbar-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hazel</a>
+    </div>
+    <ul class="nav navbar-nav navbar-center wrapper">
+      <li><a href="#">Guide</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<div class="hazel-header-item hazel-logo" aria-hidden="true">
+        <div class="hazel-logo-circles">
+          <img class="hazel-logo-circle" src="subLogo.svg">
+          <img class="hazel-logo-circle" src="subLogo2.svg">
+          <img class="hazel-logo-circle" src="subLogo3.svg">
+          <img class="hazel-logo-circle" src="subLogo4.svg">
+          <img class="hazel-logo-circle" src="subLogo5.svg">
+          <img class="hazel-logo-circle" src="subLogo6.svg">
+          <img class="hazel-logo-circle" src="subLogo7.svg">
+          <img class="hazel-logo-circle" src="subLogo8.svg">
+          <img class="hazel-logo-circle" src="subLogo9.svg">
+          <img class="hazel-logo-circle" src="subLogo10.svg">
+        </div>
+      </div>
+	  </div>
+	  <div class="col-lg-6">
+	  	<button class="btn btn-primary" onclick="createInterviewSession()"><h2>Begin a session</h2></button>
+</div>
+	  </div>
+	  </div>
+	  <script>
+	  
+	  </script>
+</html>
+	  
